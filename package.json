@@ -1,0 +1,18 @@
+{
+  "name": "ytmp3-api",
+  "version": "1.0.0",
+  "description": "YouTube to MP3 Cloudflare Worker API",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "node script.js"
+  },
+  "keywords": ["youtube", "mp3", "cloudflare-worker"],
+  "author": "Nimesh Piyumal",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
